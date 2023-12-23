@@ -1,7 +1,7 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,14 +9,23 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@wagmi/core": "^1.4.7",
+    "@web3modal/wagmi": "^3.3.2",
+    "viem": "^1.19.9"
+  },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.1.0",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "latest",
+    "@pinia/nuxt": "latest",
+    "@unocss/eslint-config": "^0.57.6",
     "@unocss/nuxt": "latest",
     "@vueuse/nuxt": "latest",
+    "@wagmi/cli": "^1.5.2",
+    "eslint": "^8.54.0",
     "nuxt": "^3.8.2",
     "vue": "^3.3.8",
-    "vue-router": "^4.2.5",
-    "@antfu/eslint-config": "^2.1.0",
-    "eslint": "^8.54.0"
+    "vue-router": "^4.2.5"
   }
 }
